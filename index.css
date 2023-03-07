@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: #222;
+    color:#eee
+
+}
+.nav-link{
+    color: orange;
+    text-decoration: none;
+}
+
+main{
+    max-width: 600px;
+    width: 100%;
+    margin: 24px auto;
+
+}
+
+section{
+    margin: 24px 0;
+    padding: 16px;
+
+}/* this is taking the names of the specific sections and giving them attributes*/
+
+#title{
+    font-size: 40px;
+    font-weight: 800; /* this is bold from a scale from 100-900 900 being boldest */
+
+}
+.d-inline{
+    display: inline;
+
+}
+
+nav > ul{
+    list-style: none;
+
+}
+
+#avatar {
+    /* this is an id selector*/
+    
+    margin: 22px auto;
+    width: 100px;
+}
